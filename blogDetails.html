@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>博客 - 萤火虫吃糖</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/markdown-beauty.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0//showdown.min.js"></script>
+
+  <script src="https://cdn.bootcss.com/webfont/1.6.28/webfontloader.js"></script>
+  
+  <script src="./js/jquery-2.1.1.min.js"></script>
+ </head>
+ <body style="background: #eee;">
+    <div style="position: absolute;width: 1000px;height: 100%;top: 0;left: 50%;margin: 0 0 0 -500px;background: white;">
+        <div style="position: absolute;width: 900px;height: 100%;top: 0;left: 50%;margin: 0 0 0 -450px;">
+            <textarea id="oriContent" style="height:400px;width:600px;" onkeyup="convert()"></textarea>
+            <h1 style="font-family: 'RobotoMono LightItalic';">Hello喜欢</h1>
+            <code>print();</code>
+            <div id="result"></div>
+        </div>
+
+    </div>
+    <script src="./js/atc-compile.js" async></script>
+</body>
+</html>

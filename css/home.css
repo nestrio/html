@@ -1,0 +1,70 @@
+.homeNav-ctn{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    width: 81%;
+    height: 150px;
+    margin: -75px 0 0 -42.5%;
+}
+
+.homeNav-btn li{
+    float: left;
+}
+
+.homeNav-btn li a{
+    opacity: 0;
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 240px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    color: #2e3131;
+    background: #d2d7d3;
+    border-radius: 8px;
+
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .6s;
+    -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+}
+
+.homeNav-btn li a.home{
+    opacity: .9;
+}
+
+.backWel{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin: 12px 10px 0 0;
+    border-radius: 50%;
+    background: #5333ed;
+    box-shadow: 10px 10px 20px rgba(10, 10, 10, 0.2);
+}
+
+
+/*此处仅为开发者调试用*/
+.atc-ctn{
+    position: absolute;
+    opacity: 0;
+    overflow: auto;
+    top: 45%;
+    left: 50%;
+    width: 90%;
+    height: 300px;
+    margin: -75px 0 0 -45%;
+    border: 1px solid red;
+
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .6s;
+    -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+}
+
+.atc-ctn.home{
+    opacity: 1;
+}

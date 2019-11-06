@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>首页 - 萤火虫吃糖</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="./css/welcome.css" />
+  <link rel="stylesheet" type="text/css" href="./css/home.css" />
+  <link rel="stylesheet" type="text/css" href="./css/common.css" />
+  <link rel="stylesheet" type="text/css" href="./css/animation.css" />
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <script src="./js/jquery-2.1.1.min.js"></script>
+  <script src="./showdown/dist/showdown.min.js"></script>
+  <script src="./js/welcome.js"></script>
+  <script src="./js/home.js"></script> 
+ </head> 
+ <body> 
+<div style="position: absolute;width: 1000px;height: 100%;top: 0;left: 50%;margin: 0 0 0 -500px;background: white;">
+    <!--第一个欢迎页面-->
+    <div class="welcome" id="welcome">
+            <div class="welCard" id="welCard">
+                <div class="header"> 
+                <h1 style="margin-bottom: 0;">欢迎<p class="highLight">来访</p></h1> 
+                </div>
+
+                <div class="container"> 
+                <p class="highLight">powered</p> <p style="display: inline;">by nestripo</p> 
+                </div> 
+            </div>
+    </div>
+
+    <!--第二个欢迎页面-->
+    <div class="profile">
+            
+        <img class="profileAvatar" src="./img/nestripo.jpg">
+        <div class="profileJob">
+            <div class="profileName">
+                <span>萤火虫吃糖</span>
+            </div>
+
+            <div class="profileJob1">
+                    <span><p class="profileHighLight">Long</p> in IT area.</span>
+            </div>
+
+            <div class="profileJob2">
+                    <span>Student in <p class="profileHighLight">Medical univ.</p></span>
+            </div>
+        </div>
+
+        <div class="entrance-btn" onclick="enterHome()">进入主页</div>
+
+        <div class="profileBar">
+                <ul>
+                    <div class="profileBar-btn">
+                        <li><a class="fa fa-github" id="github-btn" href="https://github.com/nestripo"> Github</a></li>
+                        <li><a class="fa fa-weibo" id="weibo-btn" href="https://m.weibo.cn/u/6230574858?uid=6230574858&luicode=10000011&lfid=100103type%3D1%26q%3D%E8%90%A4%E7%81%AB%E8%99%AB%E5%90%83%E7%B3%96"> 微博</a></li>
+                        <li><a class="fa fa-envelope-o" id="mail-btn" href="mailto: nestripo@aliyun.com"> 邮件</a></li>
+                    </div>
+                </ul>
+         </div>
+    </div>
+
+    <!--主页-->
+    <div class="home">
+        <div class="backWel">
+            <a href="javascript:location.reload();" class="fa fa-arrow-up" style="position: relative;left: 50%;top:50%;margin: -24px 0 0 -16px;width: 36px;height:36px;font-size:36px;color: white;"></a>
+        </div>
+        <div class="homeNav-ctn">
+            <ul>
+                <div class="homeNav-btn">
+                    <li><a>标签云</a></li>
+                    <li><a>数据后台</a></li>
+                    <li><a>留言板</a></li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="atc-ctn">这里是文章列表区域，位于第三页面<br>但是不知道为什么高度设置300以上就会进入不了主页</div>
+    </div>
+</div>
+ </body>
+</html>

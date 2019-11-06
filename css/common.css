@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'fontawesome';
+    src: url("../fonts/fontawesome-webfont.ttf");
+
+    font-family: "RobotoMono LightItalic";
+    src: url("../fonts/RobotoMono-LightItalic.ttf");
+
+    font-family: "RobotoMono Light";
+    src: url("../fonts/RobotoMono-Light.ttf");
+}
+
+body{
+    font-family: "fontawesome";
+}
